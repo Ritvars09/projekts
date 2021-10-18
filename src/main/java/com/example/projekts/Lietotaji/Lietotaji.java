@@ -2,9 +2,10 @@ package com.example.projekts.Lietotaji;
 
 
 import org.hibernate.annotations.Columns;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
-
+@Component
 @Entity
 @Table(name = "Lietotaji")
 public class Lietotaji {

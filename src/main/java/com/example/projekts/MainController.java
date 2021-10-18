@@ -8,9 +8,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 public class MainController {
-    @GetMapping("112")
+
+
+
+    @GetMapping("")
     public String showHomePage() {
         System.out.println("Main Controler");
         return "index";
     }
+
+
 }
